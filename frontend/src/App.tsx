@@ -6,7 +6,7 @@ import GAME from "./utils/Game.json";
 // Components
 import SelectCharacter from "./Components/SelectCharacter/SelectCharacter";
 import Arena from "./Components/Arena/Arena";
-import LoadingIndicator from "./Components/LoadingIndicator";
+import LoadingIndicator from "./Components/LoadingIndicator/index";
 
 // Constants
 import {

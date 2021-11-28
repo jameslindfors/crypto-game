@@ -8,7 +8,7 @@ import {
 import GAME from "../../utils/Game.json";
 import { DogAttributes } from "../../utils/types";
 import "./Arena.css";
-import LoadingIndicator from "../LoadingIndicator";
+import LoadingIndicator from "../LoadingIndicator/index";
 
 const Arena = ({ characterNFT, setCharacterNFT }: any) => {
   const [gameContract, setGameContract] = useState<any>();

@@ -4,7 +4,7 @@ import { ethers } from "ethers";
 import { DogAttributes } from "../../utils/types";
 import { CONTACT_ADDRESS, transformCharacterData } from "../../constants";
 import GAME from "../../utils/Game.json";
-import LoadingIndicator from "../LoadingIndicator";
+import LoadingIndicator from "../LoadingIndicator/index";
 
 const SelectCharacter = ({ setCharacterNFT }: any) => {
   const [characters, setCharacters] = useState<DogAttributes[]>([]);
