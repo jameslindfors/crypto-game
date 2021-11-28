@@ -1,0 +1,15 @@
+{
+  "name": "Happy -- NFT #: 1",
+  "description": "Pearl NFT for game!",
+  "image": "https://i.ibb.co/LhCsFtS/happy-Pearl.png",
+  "attributes": [
+    { "trait_type": "Happiness", "value": 100, "max_value": 100 },
+    {
+      "trait_type": "Energy",
+      "value": 55,
+      "max_value": 55
+    },
+    { "trait_type": "Hunger", "value": 55, "max_value": 55 },
+    { "trait_type": "Treats", "value": 100, "max_value": 100 }
+  ]
+}
